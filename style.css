@@ -1,0 +1,157 @@
+.hb-navigation {
+  background: #fff;
+}
+
+.hb-navigation a {
+  text-transform: uppercase;
+}
+
+nav .navbar-collapse {
+  flex-grow: 0;
+}
+
+nav.bg-light {
+  background-color: #fff !important;
+  padding: 10px 0px;
+}
+
+header {
+  width: 100%;
+  height: 650px;
+}
+
+header img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.overlay-header {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay-header_content {
+  max-width: 800px;
+}
+
+.overlay-header h3 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+.overlay-header h1 {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: #000;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#cta {
+  background-color: #fabc29;
+  color: #fff;
+}
+
+.cta {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta a {
+  color: #fff;
+  padding: 5px 25px;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.cta a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+}
+
+#about {
+  background-color: #f8f8f8;
+  margin: 100px 0px;
+  padding: 70px 0px;
+}
+
+.about,
+.features {
+  color: #b4b4b8;
+}
+
+.about {
+  text-align: center;
+}
+
+.section-border {
+  width: 45px;
+  height: 3px;
+  background: #afb3b960;
+}
+
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-heading h2 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.about-text span {
+  display: block;
+  color: #000;
+  margin: 0;
+}
+
+.about-card {
+  padding: 20px 10px;
+  background: #efeff1;
+}
+
+.about-card h5 {
+  color: #222222;
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+.about-card i {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.about-card p {
+  font-size: 0.9rem;
+}
+
+.features-content {
+  color: #222;
+}
+
+.features-box i {
+  padding: 15px;
+  background-color: #f1f1f1;
+}
